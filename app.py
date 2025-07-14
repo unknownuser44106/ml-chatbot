@@ -66,7 +66,7 @@
 #     app.run(host="0.0.0.0", port=port)
 #     app.run(debug=False)
 
-
+# trigger redeploy to use python 3.10.13
 
 from flask import Flask, request, jsonify, render_template
 from keras.models import load_model
@@ -77,7 +77,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 import os
 import requests
-# trigger redeploy to use python 3.10.13
+
 
 
 app = Flask(__name__)
