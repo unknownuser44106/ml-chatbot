@@ -77,6 +77,8 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 import os
 import requests
+# trigger redeploy to use python 3.10.13
+
 
 app = Flask(__name__)
 
