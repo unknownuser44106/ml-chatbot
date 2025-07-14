@@ -1,0 +1,14 @@
+# Ignore model files and datasets
+*.pkl
+*.csv
+
+# Ignore Jupyter notebooks (optional if large)
+*.ipynb
+
+# Ignore Python cache and virtual environment
+__pycache__/
+venv/
+
+# Ignore system or temporary files
+.DS_Store
+*.log
